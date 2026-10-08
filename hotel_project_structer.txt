@@ -1,0 +1,27 @@
+Hotel
+│
+├── rooms
+│   │
+│   └── Room
+│       ├── id
+│       ├── size
+│       └── status
+│
+├── bookings
+│   │
+│   └── Booking
+│       ├── id
+│       ├── room
+│       ├── customer_name
+│       ├── date
+│       ├── price
+│       └── expire_date
+│
+└── Methods
+    │
+    ├── add_room()
+    ├── find_room()
+    ├── show_rooms()
+    ├── show_free_rooms()
+    ├── show_busy_rooms()
+    └── create_book()
